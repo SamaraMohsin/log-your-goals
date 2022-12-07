@@ -4,7 +4,7 @@ import ThirdGoal from "./ThirdGoal";
 
 function GoalList(){
     return( 
-        <>
+        <div className="goalList">
         <ul>
             <li> <div> <FirstGoal></FirstGoal></div></li>
             <li><div><SecondGoals></SecondGoals></div></li>
@@ -12,7 +12,7 @@ function GoalList(){
 
         </ul>
        
-        </> 
+        </div> 
        
     );
 }
